@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!--Para detectar caracteres especiales-->
+        <meta charset="UTF-8">
+        <!--La descripción que aparece en el navegador (Ayuda al posicionamiento en Google)-->
+        <meta name="description" content="Página hecha en clase">
+        <!--Habilidad búsqueda en el navegador-->
+        <meta name="robots" content="index,follow">
+        <!--Título de la pestaña-->
+        <title>Actividad 1 Bootcamp</title>
+        <!--Responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Insertar referencia CSS al documento-->
+        <link rel="stylesheet" href="./style.css">
+
+        <link rel="icon" type="image/x-icon" href="./escudo.png">
+    </head>
+    <body>
+        <main>
+            <header>
+                <img style="float: left" src="./escudo.png" width="80px">
+                <h1 style="padding-left: 10px;">Bienvenido a 
+                    <span style="color: rebeccapurple;">Actividad #1</span> - 
+                    <span style="color: cadetblue;">Bootcamp DINARA</span> - 
+                    <span style="color: crimson;">Front-End</span>
+                </h1>
+            </header>
+            <div class="contenido">
+                <div>
+                    <h2>Formulario</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <form>
+                        <div class="contenido borde">
+                            <div class="contenido">
+                                <label>Nombre(s)</label>
+                                <input type="text">
+                            </div>
+                            <div class="contenido">
+                                <label>Cédula</label>
+                                <input type="number">
+                            </div>
+                            <div class="contenido">
+                                <label>Apellido(s)</label>
+                                <input type="text">
+                            </div>
+                            <div class="contenido">
+                                <label>Fecha de nacimiento</label>
+                                <input type="date">
+                            </div>
+                            <span></span>
+                            <div class="enviar-formulario">
+                                <input type="submit">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="bandera">
+                    <input style="background-color: yellow; height: 50%;" disabled>
+                    <input style="background-color: blue; height: 25%;" disabled>
+                    <input style="background-color: red; height: 25%;" disabled>
+                </div>
+                <div class="contenido">
+                    <div style="margin-left: 5%;";";">
+                        <h2>Lista ordenada</h2>
+                        <ol>
+                            <li>Elicitación de requisitos</li>
+                            <li>Back-End</li>
+                            <li>Front-End</li>
+                        </ol>
+                    </div>
+                    <div style="margin-left: 5%;">
+                        <h2>Lista desordenada</h2>
+                        <ul>
+                            <li>26 de enero, 4:00 p.m.</li>
+                            <li>26 de enero, 7:00 p.m.</li>
+                            <li>25 de enero, 7:00 p.m.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <img class="centrar-imagen" src="./extra.jpg">
+                </div>
+                <div>
+                    <a href="https://github.com/davgarciava" target="_blank"><h3>Por David Mateo García</h3></a>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
